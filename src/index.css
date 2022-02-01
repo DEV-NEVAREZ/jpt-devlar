@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+:root {
+  --font-family: 'Manrope', sans-serif;
+  --font-family-dancing: 'Dancing Script', cursive;
+  --font-family-s: 'Sacramento', cursive;
+  --font-family-homemade: 'Homemade Apple', cursive;
+  --font-family-shadows: 'Shadows Into Light', cursive;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar:  radial-gradient(ellipse at 0% 36%, rgba(219, 168, 255, 1) 0%, rgba(192, 248, 255, 1) 50%, rgba(238, 130, 238, 1) 100%);
+
+  --color-bg: #d2c8f8;
+  --color-footer : #ea7eff;
+  --color-blog: #e3a8fa;
+  --color-text: #f8f4fa;
+  --color-subtext: #f5aee5;
 }
